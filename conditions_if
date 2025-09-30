@@ -1,6 +1,12 @@
 #!/bin/bash
 
-age=19
+echo "Quel est ton prenom ?"
+read prenom
+
+echo "Quel est ton age ?"
+read age 
+
+echo "Bonjour $prenom"
 
 if [ $age -ge 18 ]; then
   echo "Tu est majeur"
